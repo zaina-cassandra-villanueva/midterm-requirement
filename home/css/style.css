@@ -70,7 +70,7 @@ nav a:hover {
 /* CONTENT */
 .content {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -82,6 +82,26 @@ nav a:hover {
 .content ul {
   margin-top: 1rem;
   padding-left: 20px;
+}
+
+/* ABOUT SECTION WITH IMAGE */
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #6a0dad;
+}
+
+.about-text {
+  max-width: 500px;
 }
 
 /* FOOTER */
@@ -101,5 +121,10 @@ footer {
 
   .hero {
     padding: 2rem 1rem;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
   }
 }
